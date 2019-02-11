@@ -115,11 +115,16 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Laboratorios',
+            'url'         => 'laboratorio',
+            'icon'        => 'flask',
+/*            'label'       => 4,
+            'label_color' => 'success',*/
+        ],
+        [
+            'text'=>'Presentaciones',
+            'url'=>'presentacion',
+            'icon'=>'eyedropper',
         ],
         'ACCOUNT SETTINGS',
         [
