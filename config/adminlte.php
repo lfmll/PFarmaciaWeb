@@ -108,7 +108,7 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'NAVEGACION',
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
@@ -125,6 +125,11 @@ return [
             'text'=>'Presentaciones',
             'url'=>'presentacion',
             'icon'=>'eyedropper',
+        ],
+        [
+            'text'=>'Medicamentos',
+            'url'=>'medicamento',
+            'icon'=>'medkit',
         ],
         'ACCOUNT SETTINGS',
         [

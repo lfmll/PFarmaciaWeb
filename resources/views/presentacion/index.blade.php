@@ -5,8 +5,11 @@
 		<h1>Presentaciones</h1>
 	</div>
 	<div class="container">
+		<a href="{{url('/presentacion/create')}}" class="btn btn-info">
+		Registrar Nueva Presentacion
+		</a>
 		<hr>
-		<table class="table table-boredered">
+		<table class="table table-striped table-hover">
 			<thead>
 				<tr>
 					<td>ID</td>

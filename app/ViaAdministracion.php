@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Presentacion extends Model
+class ViaAdministracion extends Model
 {
-	protected $fillable=["nombre"];
-	
+    protected $table='viaadministracions';
+    protected $fillable=["nombre"];
     public function medicamento(){
     	return $this->hasMany(Medicamento::class);
     }

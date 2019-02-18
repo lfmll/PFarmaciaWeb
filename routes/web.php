@@ -21,3 +21,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('farmacia','FarmaciaController');
 Route::resource('laboratorio','LaboratorioController');
 Route::resource('presentacion','PresentacionController');
+Route::resource('viaadministracion','ViaAdministracionController');
+Route::resource('medicamento','MedicamentoController');

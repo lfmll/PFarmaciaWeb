@@ -61,7 +61,7 @@ class ViasAdministracionSeeder extends Seeder
         	'descripcion'=>'Se inyecta en el tejido muscular, de absorcion rapida y de volumen reducido a no mas de 5 ml',
         	]);
         DB::table('viaadministracions')->insert([
-        	'nombre'=>'Subcotanea',
+        	'nombre'=>'Subcutanea',
         	'descripcion'=>'Inyeccion bajo la piel, de absorcion lenta y en pequeñas cantidades',
         	]);
     }
