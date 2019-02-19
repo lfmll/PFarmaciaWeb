@@ -18,7 +18,7 @@ class MedicamentoController extends Controller
      */
     public function index()
     {
-        $medicamento=Medicamento::orderBy('nombre_comercial','ASC')->simplePaginate(4);
+        $medicamento=Medicamento::orderBy('nombre_comercial','ASC')->simplePaginate(3);
         return view("medicamento.index",["medicamento"=>$medicamento]);
     }
 

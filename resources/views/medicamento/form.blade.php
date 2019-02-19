@@ -3,16 +3,16 @@
 	{{Form::text('codigo',$medicamento->codigo,['class'=>'form-control','placeholder'=>'codigo'])}}
 </div>
 <div class="form-group">
-    {{Form::text('nombre_comercial',$medicamento->nombre_comercial,['class'=>'form-control','placeholder'=>'nombre comercial'])}}
+    {{Form::text('nombre_comercial',$medicamento->nombre_comercial,['class'=>'form-control','placeholder'=>'Nombre Comercial'])}}
 </div>
 <div class="form-group">
-    {{Form::text('nombre_generico',$medicamento->nombre_generico,['class'=>'form-control','placeholder'=>'nombre generico'])}}
+    {{Form::text('nombre_generico',$medicamento->nombre_generico,['class'=>'form-control','placeholder'=>'Nombre Generico'])}}
 </div>
 <div class="form-group">
-    {{Form::text('prescripcion',$medicamento->prescripcion,['class'=>'form-control','placeholder'=>'prescripcion'])}}
+    {{Form::select('prescripcion', array('Libre'=>'Libre', 'Con Receta'=>'Con Receta'),null,['class'=>'form-control','placeholder'=>'selecione una Prescripcion'])}}
 </div>
 <div class="form-group">
-    {{Form::text('dosificacion',$medicamento->dosificacion,['class'=>'form-control','placeholder'=>'dosificacion'])}}
+    {{Form::number('dosificacion',$medicamento->dosificacion,['class'=>'form-control','placeholder'=>'dosificacion'])}}
 </div>
 <div class="form-group">
     {{Form::label('title','Seleccionar Laboratorio')}}

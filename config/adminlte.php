@@ -131,6 +131,11 @@ return [
             'url'=>'medicamento',
             'icon'=>'medkit',
         ],
+        [
+            'text'=>'Insumos',
+            'url'=>'insumo',
+            'icon'=>'archive'
+        ],
         'ACCOUNT SETTINGS',
         [
             'text' => 'Profile',

@@ -23,3 +23,4 @@ Route::resource('laboratorio','LaboratorioController');
 Route::resource('presentacion','PresentacionController');
 Route::resource('viaadministracion','ViaAdministracionController');
 Route::resource('medicamento','MedicamentoController');
+Route::resource('insumo','InsumoController');
